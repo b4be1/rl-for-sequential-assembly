@@ -9,13 +9,19 @@ in [Grasshopper](https://www.grasshopper3d.com/) — an algorithmic modeling too
 
 ## Installation
 
-Required Rhino/Gasshopper plugins can be downloaded from [Food4Rhino](https://www.food4rhino.com/)
+Required Rhino/Grasshopper plugins can be downloaded from [Food4Rhino](https://www.food4rhino.com/)
 and installed as described on their respective pages
+
 * Hoopsnake
 * Matrixtoolbox
+* Pufferfish
 * Treesloth
 * Yellow
 * Zebra
+
+If the plugin Yellow is not available, file `yellow.gha` provided here in `Grasshopper Files`
+can be used as a substitute. As is common for all plugins, you may need to check the box "Unblock"
+in the file properties to prevent Windows from blocking it.
 
 For a general description of the interface between Grasshopper and Stable-Baselines3,
 see [Grasshopper Gym](https://github.com/b4be1/gh_gym). It is recommended to use
